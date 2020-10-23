@@ -1,5 +1,5 @@
-# _Ellie's Portfolio_ 
-#### _Week 2 Independant Project Portfolio, 10/23/20_ 
+# _Ellie's Quiz_ 
+#### _Week 2 Independant Project, 10/23/20_ 
 #### By _Ellie Lambert_ 
 ## Description 
 _This is for week 2 Independant Project. We were given a prompt to follow which was to create a website that had week 2 prompt as well as making a quiz which showcased our JavaScript and JQuery knowledge_ 
