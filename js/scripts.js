@@ -1,32 +1,32 @@
 //all them button things
+
 $(document).ready(function() {
-  ("form#quiz").submit(function(event) {
-    
+  $("form#quizs").submit(function(event) {
+    event.preventDefault()
     const colors = parsInt$("input:radio[name=colors]:checked").val();
     const candies = parsInt$("input:radio[name=candies]:checked").val();
     const parks = parsInt$("input:radio[name=parks]:checked").val();
     const location = parsInt$("input:radio[name=location]:checked").val();
     const animals = parsInt$("input:radio[name=animals]:checked").val();
-    const result= colors + candies + parks + location + animals;
+    
 
     //else and ifs
 
-  if (result <= 10) {
+  if (colors === 5) {
     
-    $("#html").show();
+    $("#htmls").show();
     $("#javascript, #csharp").hide();
 
-  } else if (result === 20) {
+  } else if (colors === 10) {
 
     $("#csharp").show();
     $("#javascript, #html").hide();
 
-  } else (result === 25)  {
+  } else (colors ==== 15)  
     
     $("#javascript").show();
     $("#csharp, #html").hide();
-  }  
-  event.preventDefault()
 
-  })
-})
+  });
+});
+
