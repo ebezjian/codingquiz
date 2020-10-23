@@ -2,12 +2,12 @@
 
 $(document).ready(function() {
   $("form#quizs").submit(function(event) {
-    event.preventDefault()
-    const color = parseInt($("input:radio[name=color]:checked").val());
-    const candies = parseInt($("input:radio[name=candies]:checked").val());
-    const parks = parseInt($("input:radio[name=parks]:checked").val());
-    const location = parseInt($("input:radio[name=location]:checked").val());
-    const animals = parseInt($("input:radio[name=animals]:checked").val());
+      event.preventDefault()
+    const color = parseInt($("select#color").val());
+    const candies = parseInt($("candies").val());
+    const parks = parseInt($("parks").val());
+    const location = parseInt($("locations").val());
+    const animals = parseInt($("locations").val());
     const result = candies + parks + location + animals;
 
     //else and ifs
@@ -18,12 +18,10 @@ $(document).ready(function() {
 
   } else if (color === 10 && result >= 20) {
     $("#csharp").show();
-    $("#javascript, #html").hide();
+    $("#javascript, #htmls").hide();
 
-  } else (color === 15 && result >= 20)  
+  } else (color === 15 && result >= 20);
     $("#javascript").show();
-    $("#csharp, #html").hide();
-
+    $("#csharp, #htmls").hide();
   });
 });
-
