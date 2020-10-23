@@ -13,10 +13,18 @@
 }
 
 body {
-  background-image: url("https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/04/attachment_116486210-e1586178471519.jpeg?auto=format&q=60&fit=max&w=930");
+  background-image: url("https://i.pinimg.com/originals/08/db/39/08db3993727b9e72aec15373d73ea095.jpg");
   background-color: transparent;
   height: 500px;
   background-position: center;
   background-repeat:repeat;
   background-size: cover;
+}
+
+.card{
+  background-color: rgb(97, 177, 214);
+}
+
+.card-img-top {
+  background-color: transparent;
 }
