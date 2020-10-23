@@ -16,7 +16,7 @@ _Open Locally_
 * Or, click "Download Zip" and open the file on your machine 
 
 _Deployment Link_
-* To view the deployment please use : https://ebezjian.github.io/Portfolio/
+* To view the deployment please use : https://ebezjian.github.io/codingquiz/
 
 
 ## Known Bugs 
