@@ -2,42 +2,31 @@
 $(document).ready(function() {
   ("form#quiz").submit(function(event) {
     
-    const firstQuestion = $("input:radio[name=firstQuestion]:checked").val();
-    const secondQuestion = $("input:radio[name=secondQuestion]:checked").val();
-    const thirdQuestion = $("input:radio[name=thirdQuestion]:checked").val();
-    const fourthQuestion = $("input:radio[name=fourthQuestion]:checked").val();
-    const fifthQuestion = $("input:radio[name=fifthQuestion]:checked").val();
-
+    const colors = parsInt$("input:radio[name=colors]:checked").val();
+    const candies = parsInt$("input:radio[name=candies]:checked").val();
+    const parks = parsInt$("input:radio[name=parks]:checked").val();
+    const location = parsInt$("input:radio[name=location]:checked").val();
+    const animals = parsInt$("input:radio[name=animals]:checked").val();
+    const result= colors + candies + parks + location + animals;
 
     //else and ifs
 
-  if (firstQuestion === neutrals &&
-      secondQuestion === chocolate &&
-      thirdQuestion === donna &&
-      fourthQuestion === chicago &&
-      fifthQuestion === cat) {
+  if (result <= 10) {
     
     $("#html").show();
     $("#javascript, #csharp").hide();
 
-  } else if (firstQuestion === pastel &&
-    secondQuestion === chocolate &&
-    thirdQuestion === donna &&
-    fourthQuestion === chicago &&
-    fifthQuestion === cat) {
+  } else if (result === 20) {
 
     $("#csharp").show();
     $("#javascript, #html").hide();
 
-  } else (firstQuestion === primary &&
-    secondQuestion === chocolate &&
-    thirdQuestion === donna &&
-    fourthQuestion === chicago &&
-    fifthQuestion === cat) ;
+  } else (result === 25)  {
     
     $("#javascript").show();
     $("#csharp, #html").hide();
+  }  
   event.preventDefault()
+
   })
-  
 })
