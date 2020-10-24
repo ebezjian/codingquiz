@@ -8,7 +8,7 @@
 .jumbotron-fluid {
   background-color: rgb(221, 137, 117);
   color: black;
-  font-family: 'Times New Roman'; 
+  font-family: 'Milkshake'; 
   text-align: center;
 }
 
@@ -23,8 +23,30 @@ body {
 
 .card{
   background-color: rgb(97, 177, 214);
+  border-radius: 10em;
 }
 
 .card-img-top {
   background-color: cornsilk;
+}
+
+.texts {
+  font-family: Milkshake;
+  font-size: 30px;
+  
+
+}
+
+@font-face {
+  font-family: 'Milkshake';
+  src: url(Milkshake.otf);
+
+}
+
+#parks, #candies, #animals, #color, #location {
+  inline-size: 300px;
+  position: relative;
+  border-radius: 10em;
+  border: 10px solid rgb(189, 132, 82);
+  
 }
