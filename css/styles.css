@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url("https://i.pinimg.com/originals/08/db/39/08db3993727b9e72aec15373d73ea095.jpg");
+  background-image: url("mutedtones.jpg") ;
   background-color: transparent;
   height: 500px;
   background-position: center;
@@ -26,5 +26,5 @@ body {
 }
 
 .card-img-top {
-  background-color: transparent;
+  background-color: cornsilk;
 }
