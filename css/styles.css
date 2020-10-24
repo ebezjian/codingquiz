@@ -28,6 +28,7 @@ body {
 
 .card-img-top {
   background-color: cornsilk;
+  height: 250px;
 }
 
 .texts {
