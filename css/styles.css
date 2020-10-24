@@ -1,30 +1,77 @@
 #htmls, #csharp, #javas {
   display:none;
+   
 }
 
 .btn {
   display: block;
+  background-color: rgb(97, 177, 214);
+  border-bottom: 5px solid chocolate;
+  inline-size: 300px;
+  font-size: 30px;
+  border-radius: 4em;
+  text-shadow: 0px 1px 1px chocolate;
+  margin-left: 100%;
+
 }
 .jumbotron-fluid {
   background-color: rgb(221, 137, 117);
   color: black;
-  font-family: 'Times New Roman'; 
+  font-family: 'Milkshake'; 
   text-align: center;
 }
 
 body {
-  background-image: url("https://i.pinimg.com/originals/08/db/39/08db3993727b9e72aec15373d73ea095.jpg");
+  background-image: url("mutedtones.jpg") ;
   background-color: transparent;
   height: 500px;
   background-position: center;
   background-repeat:repeat;
   background-size: cover;
+  margin-left: -20%;
 }
 
 .card{
   background-color: rgb(97, 177, 214);
+  border-radius: 10em;
+  float: left;
+  padding-left: 0;
+  height: 100%;
+  border-right: solid chocolate;
 }
 
 .card-img-top {
-  background-color: transparent;
+  background-color: cornsilk;
+  height: 250px;
+}
+
+.texts {
+  font-family: Milkshake;
+  font-size: 30px;
+  
+
+}
+
+@font-face {
+  font-family: 'Milkshake';
+  src: url(Milkshake.otf);
+
+}
+
+#parks, #candies, #animals, #color, #location {
+  inline-size: 300px;
+  position: relative;
+  border-radius: 10em;
+  border: 10px solid rgb(189, 132, 82);
+  font-size: 30px;
+  font-family: Milkshake;
+}
+
+.cardanswer {
+  margin-left: 70em;
+}
+
+.container {
+  margin-left: 18%;
+  float: left;
 }
